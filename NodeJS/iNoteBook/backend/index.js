@@ -1,6 +1,4 @@
-const dotenv = require("dotenv");
-dotenv.config({ path: "./utils/.env" })
-
+require("dotenv").config();
 const connectToMongoo = require('./db')
 const express = require('express')
 
